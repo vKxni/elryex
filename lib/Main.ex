@@ -1,5 +1,5 @@
 defmodule Main do
-    def program do
-      "Hello Program!"
+  def fun do
+    IO.puts("Hello World")
   end
 end
