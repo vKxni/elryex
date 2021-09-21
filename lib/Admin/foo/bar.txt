@@ -1,0 +1,4 @@
+iex -S mix
+=> :foo 
+=> :foo == :bar
+==> false (output)
