@@ -1,7 +1,7 @@
 defmodule Reader do
-  def your_name do
-    name = IO.gets("What is your name? ")
-    |> String.trim()
+  def scanner do
+    _name = IO.gets("What is your name? ") # underscore for unused variable
+    |> String.trim() # removing empty space between {input} and :ok
     |> IO.puts()
   end
 end
