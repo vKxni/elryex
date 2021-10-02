@@ -21,10 +21,11 @@ defmodule Todos do
     ["task 1", "task 2", "task 3"]
   end
 
-  # => Todos.temp_todos
-  # => todo_list = Todos.temp_todos
-  # => Todos.contains?(todo_list, "task 1")
-  # [OUTPUT]: true, if Items exists in temp_todus aka todo_list (recalled) || else: false
+  # HOW TO RAMDOMIZE + boolean
+  #> todos_list = Todos.temp_todos()
+  #> Todos.contains?(todo_list, "task 1")
+  #> Todos.random_task(todo_lidt)
+  # [OUTPUT]: true, if Items exists in temp_todus aka todo_list (recalled) || else: false + random Task
   def contains?(tasks, task) do
     Enum.member?(tasks, task)
   end
