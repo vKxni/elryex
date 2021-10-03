@@ -30,8 +30,8 @@ defmodule Todos do
     Enum.member?(tasks, task)
   end
 
-  def random_task(tasks) do
-    [task]= Enum.take_random(tasks, 1)
+  def random_task(tasks) do # function name
+    [task]= Enum.take_random(tasks, 1) # pattern matching task []
     task
   end
 end
