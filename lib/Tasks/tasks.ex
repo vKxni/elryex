@@ -31,7 +31,7 @@ defmodule Todos do
   end
 
   def random_task(tasks) do # function name
-    [task]= Enum.take_random(tasks, 1) # pattern matching task []
+    [task] = Enum.take_random(tasks, 1) # pattern matching task []
     task
   end
 end
