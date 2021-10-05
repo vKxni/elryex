@@ -1,1 +1,3 @@
 # https://inquisitivedeveloper.com/lwm-elixir-23/
+
+# https://www.culttt.com/2016/05/23/multi-clause-functions-pattern-matching-guards-elixir
