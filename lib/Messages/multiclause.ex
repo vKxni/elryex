@@ -1,11 +1,11 @@
 defmodule Myself do
   def greet({:formal, name, lastname}) do
-    IO.puts("Greetings #{name} #{lastname}")
+    IO.puts("Greetings #{name} #{lastname}!")
   end
 
   # Talking to a mate
   def greet({:informal, name, lastname}) do
-    IO.puts("Greetings #{name} #{lastname}")
+    IO.puts("What's up #{name} #{lastname}!")
   end
 
   # handling the error
