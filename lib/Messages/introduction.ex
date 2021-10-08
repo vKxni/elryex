@@ -6,4 +6,4 @@ defmodule Koni do
   end
 end
 Koni.myself({:hello!, :hi, :bye})
-# prints Hello
+# prints hello!
