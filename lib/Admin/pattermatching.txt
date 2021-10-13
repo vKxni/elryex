@@ -1,0 +1,3 @@
+iex> %{name: "Bill", age: 25} = person
+iex> person.name 
+=> Bill
