@@ -1,6 +1,9 @@
 defmodule Characters do
   def length do
-    String.graphemes("aaaczzb") # take the string "aaaczzb" and return the number of graphemes
+    sentence = IO.gets("Enter any word: ")
+    sentence
+    |> String.trim()
+    |> String.graphemes() # take the string of the user and return the number of graphemes
     |> Enum.frequencies()
   end
 end
