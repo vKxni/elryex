@@ -11,5 +11,5 @@ defmodule LousyCalculator do
 
   @spec multiply(number, number) :: number_with_remark()
   def multiply(x, y), do: {x * y, "Higher level addition, right?"}
-  #                        ^n         ^String.t
+  #                        ^number         ^String.t
 end
