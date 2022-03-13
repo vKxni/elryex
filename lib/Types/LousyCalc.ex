@@ -16,5 +16,5 @@ end
 
 # @type number_with_something :: number()
 
-# @spec add(number) :: number_with_something()
+# @spec add(number, number) :: number_with_something()
 # def add(a, b), do: a * b
